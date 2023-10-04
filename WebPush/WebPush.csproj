@@ -3,19 +3,34 @@
   <PropertyGroup>
     <TargetFrameworks>net48;net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.12</Version>
-    <Authors>Cory Thompson</Authors>
-    <Company />
+    <Version>1.1.12</Version>
+    <Authors>Eric Esquibel</Authors>
+    <Company>Original by Cory Thompson</Company>
     <Product />
     <Description>Web Push library for C#</Description>
-    <PackageLicenseUrl>https://github.com/web-push-libs/web-push-csharp/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/web-push-libs/web-push-csharp/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/web-push-libs/web-push-csharp/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/eesquibel/web-push-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eesquibel/web-push-csharp</RepositoryUrl>
     <PackageTags>web push notifications vapid</PackageTags>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>$(AssemblyName).Alt</PackageId>
+    <Title>WebPush Latest Dependancies</Title>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />

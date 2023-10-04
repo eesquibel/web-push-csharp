@@ -1,13 +1,7 @@
 <h1 align="center">web-push-csharp</h1>
 
-<p align="center">
-  <a href="https://github.com/web-push-libs/web-push-csharp/actions/workflows/CI.yml">
-    <img src="https://github.com/web-push-libs/web-push-csharp/actions/workflows/CI.yml/badge.svg" alt="CI Build" />	
-  </a>
-  <a href="https://www.nuget.org/packages/WebPush/">
-    <img src="https://buildstats.info/nuget/WebPush" alt="Nuget Package Details" />
-  </a>
-</p>
+# Fork
+Upgrade to latest dependancies, limit most recent LTS target frameworks.
 
 # Why
 
@@ -312,5 +306,6 @@ The [Service Worker Cookbook](https://serviceworke.rs/) is full of Web Push
 examples.
 
 # Credits
+- Original project by [coryjthompson](https://github.com/coryjthompson)
 - Ported from https://github.com/web-push-libs/web-push.
 - Original Encryption code from https://github.com/LogicSoftware/WebPushEncryption
